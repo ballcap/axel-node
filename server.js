@@ -84,7 +84,7 @@ app.post('/send-email', upload.single('input-img-attach'), async (req, res) => {
                 <section>
                     <h1>結果</h1>
                     <p>正常に送信されました。２４時間以内に結果が送られてきますので、しばらくお待ちください。</p>
-                    <p><strong>あなたの運勢:</strong> ${randomFortune}</p>
+                    <p><strong>あなたの今日の運勢:</strong> ${randomFortune}</p>
                     <a href="https://axel-test.onrender.com/">ホームに戻る</a>
                 </section>
                 <footer>
